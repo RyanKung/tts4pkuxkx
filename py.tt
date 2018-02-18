@@ -1,0 +1,7 @@
+#run pytt python
+from pytt.utils import split, show, cmd
+
+#action {^cmd %1} {
+    #pkuxkx %1
+}
+#pkuxkx

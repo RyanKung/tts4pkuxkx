@@ -1,0 +1,2 @@
+#config charset BIG5
+#config {packet patch} 0.5
