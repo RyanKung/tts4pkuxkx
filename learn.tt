@@ -1,0 +1,9 @@
+#alias {l_yin %1} {
+       #ticker {xue} {#showme xue;xue yin for %1 8 } {10};
+       #ticker {chi} {#showme chi;e;e;n;zuo;s;w;w;} {300};
+       #ticker {yun} {#showme yun; yun jing}{45};
+}
+
+#alias {unl_yin} {
+       #unticker {xue};#unticker {chi};#unticker {yun}
+}

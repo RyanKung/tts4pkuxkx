@@ -1,0 +1,7 @@
+#read config.tt
+#read autologin.tt
+
+#read py.tt
+#read ticker.tt
+#read utils.tt
+#split

@@ -1,0 +1,9 @@
+#ticker {tuna} {
+        #show tuna 20;
+        tuna 20;
+} {60}
+
+#ticker {dazuo} {
+        #show dazuo 20;
+        dazuo 20;
+} {70}

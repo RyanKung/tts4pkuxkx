@@ -1,5 +1,5 @@
 #run pytt python
-from pytt.utils import split, show, cmd
+from pytt.utils import split, show, cmd, set_var
 
 #action {^cmd %1} {
     #pkuxkx %1

@@ -9,3 +9,7 @@ def cmd(a):
 
 def show(a):
     print('cmd #showme %s' % a)
+
+
+def set_var(a, b):
+    print('cmd #var %s %s' % (a, b))

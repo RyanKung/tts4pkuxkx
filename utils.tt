@@ -2,6 +2,6 @@
         #path del
 }
 
-#action {~\e[1;32m\e[31m%1} {
-        #showme %1;
+#action {~\e[1;32m\e[31m%1\e[2;37;0m} {
+        #var loc %1;
 }

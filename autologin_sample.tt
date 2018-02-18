@@ -1,0 +1,7 @@
+#var username foo
+#var password {bar}
+#session pkuxkx mud.pkuxkx.net 8080
+#DELAY 2 {
+       $username;
+       $password;
+}

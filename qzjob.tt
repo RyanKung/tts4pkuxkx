@@ -1,0 +1,61 @@
+#alias {startjob} {
+       #var step -1;
+       ask daoren about job;
+       sd;
+       #ticker {sao} {sao} {5};
+       #action {这里已经被打扫的一尘不染了。} {
+               #showme 一尘不染;
+               #math step { $step + 1};
+               #switch {$step} {
+                       #case  0 {
+                            s; 
+                       };
+                       #case 1 {
+                             sd; 
+                       };
+                       #case 2 {
+                             sd; 
+                       };
+                       #case 3 {
+                             se; 
+                       };
+                       #case 4 {
+                             s; 
+                       };
+                       #case 5 {
+                             se; 
+                       }
+
+                       #case 6 {
+                             nw; 
+                       }
+                       #case 7 {
+                             n; 
+                       };
+                       #case 8 {
+                             nw 
+                       };
+                       #case 9 {
+                             nu 
+                       };
+                       #case 10 {
+                             n 
+                       };
+                       #case 11 {
+                             nu 
+                       }
+                       #case 12 {
+                             stopjob;
+                             startjob;
+                       }
+                       #default {
+                             #showme unkown path 
+                       }
+               }
+       }
+}
+
+#alias {stopjob} {
+       #unaction {这里已经被打扫的一尘不染了。};
+       #unticker {sao}
+}
